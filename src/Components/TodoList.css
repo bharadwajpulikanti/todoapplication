@@ -1,0 +1,50 @@
+.TodoList{
+    min-height: 50px;
+    border-radius: 5px;
+    background-color: teal;
+    margin:20px auto;
+    width: 320px;
+    color:white;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.TodoList p{
+
+    padding : 10px;
+    position: relative;
+}
+
+.TodoList p span{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    
+}
+
+
+.TodoList p input{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    width : 250px;
+}
+
+.TodoList p input:focus{
+    outline: none;
+}
+.TodoList  button{
+    background-color: rgb(252, 26, 26);
+  border: 0;
+  color : white;
+  font-weight: bolder;
+cursor: pointer;
+
+    
+}
+
+.TodoList  button:hover{
+    background-color: rgb(216, 0, 0)
+}
